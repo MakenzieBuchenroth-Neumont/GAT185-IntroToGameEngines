@@ -8,8 +8,8 @@ using UnityEngine.UIElements;
 
 public class Walk : MonoBehaviour {
     [SerializeField] float moveSpeed = 2f;
-    [SerializeField] float turnSpeed = 90f;
-    [SerializeField] float pauseTime = 1f;
+    //[SerializeField] float turnSpeed = 90f;
+    //[SerializeField] float pauseTime = 1f;
     [SerializeField] float timer;
     private bool move = true;
     private bool turn = true;
