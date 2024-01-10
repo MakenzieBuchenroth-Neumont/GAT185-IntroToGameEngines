@@ -4,14 +4,20 @@ using UnityEngine;
 
 public class Orbit_Camera : MonoBehaviour {
     [SerializeField] Transform target = null;
-    [SerializeField][Range(20, 90)] float pitch = 40;
-    [SerializeField][Range(3, 5)] float distance = 3;
-    [SerializeField][Range(1, 5)] float sensitivity = 1;
+    [SerializeField][Range(20f, 90f)] float defaultPitch = 40;
+    [SerializeField][Range(3f, 5f)] float distance = 3;
+    [SerializeField][Range(1f, 5f)] float sensitivity = 1;
 
     float yaw = 0;
+    float pitch = 0;
+
+    private void Start() {
+        pitch = defaultPitch;
+    }
 
     void Update() {
         yaw += Input.GetAxis("Mouse X") * sensitivity;
+        pitch += Input.GetAxis("Mouse Y") * sensitivity;
 
         Quaternion qyaw = Quaternion.AngleAxis(yaw, Vector3.up);
         Quaternion qpitch = Quaternion.AngleAxis(pitch, Vector3.right);
