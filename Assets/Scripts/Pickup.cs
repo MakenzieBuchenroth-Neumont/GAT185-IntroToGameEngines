@@ -6,19 +6,15 @@ using UnityEngine;
 public class Pickup : MonoBehaviour {
     [SerializeField] GameObject pickupPrefab = null;
 
-    void Start() {
-        
-    }
-
-    void Update() {
-        
-    }
-
     void OnCollisionEnter(Collision collision) {
         print(collision.gameObject.name);
     }
 
     private void OnTriggerEnter(Collider other) {
+        if (other.gameObject.TryGetComponent(out Player player)) {
+            player.addPoints(10);
+        }
+
         Instantiate(pickupPrefab, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
