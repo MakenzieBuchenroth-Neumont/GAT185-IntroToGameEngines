@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: 7290fe5d930f3364c848268876264e59
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Channel
+    second: {fileID: 1387757772557967108, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Channel_Wndup
+    second: {fileID: 3047051518604895247, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Crit
+    second: {fileID: -1476059001781007139, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Dance_Loop
+    second: {fileID: 2879164982179533820, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Dance_Windup
+    second: {fileID: -9137111526857394497, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Death
+    second: {fileID: 4348485665485846014, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Ezreal_Attack3.anm
+    second: {fileID: 1960152368329855845, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Ezreal_Attack4.anm
+    second: {fileID: -3688447798754192314, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Ezreal_Spell3_Exit.anm
+    second: {fileID: -7030273665824359296, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Ezreal_Spell3_Exit_NoTarget.anm
+    second: {fileID: 6773688791452776762, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Idle_Base
+    second: {fileID: 5845545140220366297, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Joke
+    second: {fileID: 8629041428491075302, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Laugh
+    second: {fileID: -167814886002320886, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Recall
+    second: {fileID: -7755017496083870410, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Recall_Winddown
+    second: {fileID: -3194177809617574503, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Respawn
+    second: {fileID: 13439967830571826, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Run_Haste
+    second: {fileID: 5270837682246027916, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Run_To_Idle
+    second: {fileID: 7332918235203705606, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Spell1
+    second: {fileID: 5602070866926714919, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Spell1_To_Idle
+    second: {fileID: -794595110588941194, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Spell1_To_Run
+    second: {fileID: 1464921892241452581, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Spell2
+    second: {fileID: 4917742909023264166, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Spell2_To_Idle
+    second: {fileID: -5024912673051224207, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Spell2_To_Run
+    second: {fileID: -8648307791495044093, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Spell3_-180
+    second: {fileID: -8620699373899928229, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Spell3_-90
+    second: {fileID: 698622036136519467, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Spell3_0
+    second: {fileID: 3985267027085580215, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Spell3_180
+    second: {fileID: -1417544792824177818, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Spell3_90
+    second: {fileID: 106112769781016886, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Spell3_Exit_NoTarget_Idle
+    second: {fileID: 6773688791452776762, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Spell3_Exit_NoTarget_Run
+    second: {fileID: 1228516918432310082, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Spell3_Exit_Run
+    second: {fileID: 5142177350571017226, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Spell3_Generic
+    second: {fileID: -6910771801170867354, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Spell4
+    second: {fileID: -802805200671180263, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Spell4_To_Idle
+    second: {fileID: -1721713227959248467, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Taunt
+    second: {fileID: 4872501219330379261, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: ezreal_Attack1.anm
+    second: {fileID: -4638938176418185399, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: ezreal_Attack2.anm
+    second: {fileID: -5945989586787951140, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: ezreal_Idle2.anm
+    second: {fileID: 7677068973083300765, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: ezreal_run.anm
+    second: {fileID: -6894452300028163542, guid: 7290fe5d930f3364c848268876264e59, type: 3}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: cc45016b844e7624dae3aec10fb443ea, type: 3}
+  reverseAxis: 0
+  renderPipeline: 0

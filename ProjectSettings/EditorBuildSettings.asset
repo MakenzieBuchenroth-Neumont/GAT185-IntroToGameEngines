@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Roller.unity
+    guid: 21a5bdd45a6bdfe44a3f1645dfd2d66b
   m_configObjects: {}

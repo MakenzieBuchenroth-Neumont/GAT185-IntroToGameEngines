@@ -42,4 +42,9 @@ public class Physics_CharacterController : MonoBehaviour {
     private bool onGround() {
         return Physics.Raycast(transform.position, Vector3.down, rayLength, groundLayerMask);
     }
+
+    public void Reset() {
+        rb.velocity = Vector3.zero;
+        rb.angularVelocity = Vector3.zero;
+    }
 }
