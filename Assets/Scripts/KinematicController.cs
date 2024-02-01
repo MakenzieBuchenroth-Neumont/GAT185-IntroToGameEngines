@@ -2,11 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KinematicController : MonoBehaviour {
+public class KinematicController : MonoBehaviour, IDamagable {
 	[SerializeField, Range(0,40)] float speed = 1;
 	[SerializeField] float maxDistance = 5;
 
-	private void Update() {
+	public float health = 100;
+
+    public void applyDamage(float damage) {
+		health -= damage;
+    }
+
+    private void Update() {
 		Vector3 direction = Vector3.zero;
 
 		direction.x = Input.GetAxis("Horizontal");

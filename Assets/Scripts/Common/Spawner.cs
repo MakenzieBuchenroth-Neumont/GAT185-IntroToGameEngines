@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public abstract class Spawner : MonoBehaviour, IInteractable
-{
+public abstract class Spawner : MonoBehaviour, IInteractable {
 	[SerializeField] GameObject[] spawnPrefabs;
 	[SerializeField] Transform parentTransform = null;
 

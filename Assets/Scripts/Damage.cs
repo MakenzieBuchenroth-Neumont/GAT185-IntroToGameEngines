@@ -8,17 +8,17 @@ public class Damage : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other) {
         if (oneTime && other.gameObject.TryGetComponent<IDamagable>(out IDamagable damagable)) {
-            damagable.takeDamage(damage);
+            damagable.applyDamage(damage);
         }
     }
 
     private void OnTriggerStay(Collider other) {
         if (!oneTime && other.gameObject.TryGetComponent<IDamagable>(out IDamagable damagable)) {
-            damagable.takeDamage(damage * Time.deltaTime);
+            damagable.applyDamage(damage * Time.deltaTime);
         }
     }
 }
 
     public interface IDamagable {
-        void takeDamage(float damage);
+        void applyDamage(float damage);
     }

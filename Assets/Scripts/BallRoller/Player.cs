@@ -50,7 +50,7 @@ public class Player : MonoBehaviour, IDamagable {
         characterController.enabled = true;
     }
 
-    public void takeDamage(float damage) {
+    public void applyDamage(float damage) {
         health.value -= damage;
         if (health.value <= 0) {
             playerDeadEvent.raiseEvent();
