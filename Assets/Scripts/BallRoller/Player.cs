@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using static Damage;
 
-public class Player : MonoBehaviour, IDamagable {
+public class Player : MonoBehaviour {
     [SerializeField] TMP_Text scoreText;
     [SerializeField] FloatVariable health;
     [SerializeField] FloatVariable lives;
