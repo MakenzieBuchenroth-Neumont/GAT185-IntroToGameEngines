@@ -103,7 +103,6 @@ public abstract class Spawner : MonoBehaviour, IInteractable {
 
 	public void OnInteractActive(GameObject gameObject)
 	{
-		throw new System.NotImplementedException();
 	}
 
 	public void OnInteractEnd(GameObject gameObject)

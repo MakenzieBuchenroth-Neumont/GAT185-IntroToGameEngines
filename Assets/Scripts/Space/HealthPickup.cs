@@ -1,0 +1,16 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class HealthPickup : MonoBehaviour {
+    [SerializeField] float health;
+    [SerializeField] GameObject pickupPrefab;
+
+    private void OnTriggerEnter(Collider other) {
+        if (other.TryGetComponent(out PlayerShip player)) {
+            player.ApplyHealth(health);
+            if (pickupPrefab != null) Instantiate(pickupPrefab, transform.position, Quaternion.identity);
+            Destroy(gameObject);
+        }
+    }
+}
